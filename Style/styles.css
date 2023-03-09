@@ -1,0 +1,44 @@
+.promoItem{border: 4px solid #f72a31;
+    margin: 40px 125px;
+    border-radius:10px;
+}
+
+.headerpromo{ background-color:#f72a31;
+              height: 100px; 
+              display: flex;
+              border-radius: 6px 6px 0px 0px;
+              align-content: center;
+              justify-content: center;
+              justify-items: center;
+            }
+.headerpromo img{margin-top: -30px}            
+.cardList {
+    padding: 15px;
+    display: grid;
+   
+    padding: 10x;
+    grid-template-columns: repeat(auto-fill, minmax(175px,auto));
+    justify-content: center;
+   
+    grid-column-gap: 11px;
+    grid-row-gap:11px;
+}
+
+.cardItem {
+    display: grid;
+    align-content: center;
+ 
+    justify-items: center;
+    text-align: center;
+    width: 175px;
+    height: 350px;
+    border-radius: 8px;
+    border: 2px solid rgb(219, 204, 204);
+    filter: drop-shadow(rgba(0,0,0, 0.25))  
+}
+.cardItem p{ font-size: 14px;}
+.gmbr {width: 150px;}
+
+
+.fontpromo{text-decoration:line-through; font-size: 10px ;}
+.fontharga{font-size: 50px; color: green;}
